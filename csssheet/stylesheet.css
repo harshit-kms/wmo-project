@@ -1,0 +1,156 @@
+.container {
+    margin: 50px 150px;
+}
+
+a {
+    color: rgb(82, 91, 99);
+}
+
+a:hover {
+    color: rgb(237, 96, 9);
+}
+
+a:active {
+    color: green;
+}
+ 
+
+.block {
+    font-family: sans-serif;
+    display: inline;
+    font-size: 2em;
+}
+
+.block li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    margin: 20px;
+}
+
+.block a {
+    text-decoration: none;
+}
+
+.bar {
+    display: flex;
+}
+
+.main-bar {
+    box-sizing: border-box;
+    width: 70%;
+    float: left;
+}
+
+.article {
+    float: left;
+    display: inline;
+    width: 45%;
+    font-size: 2em;
+}
+.article h1{
+    float:left;
+    padding-right: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.button{
+    display: inline-block;
+    background-color: rgb(233, 62, 62);
+    padding: 15px;
+    width: 200px;
+    border: 2px solid;
+    color: #fef3f3;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.button:hover{
+    background-color: black;
+
+}
+.side-bar {
+    box-sizing: border-box;
+    flex: 1; /* Take remaining space in the flex container */
+    background-color: rgb(14, 14, 46);
+    justify-content: space-evenly;
+    height: auto;
+    margin-left: 50px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topics {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: white;
+    border-bottom-style: solid ;
+}
+
+.topics:hover{
+    color:rgb(237,175,35);
+    cursor: pointer;
+    border-bottom-style: solid ;
+    border-color: white;
+}
+
+.sub-topics {
+    color: rgb(196, 191, 191);
+    padding-bottom: 8px;
+
+}
+
+.main-bar img {
+    width: 100%;
+    height: auto;
+}
+
+.side-bar h1 {
+    color: rgb(237, 175, 31);
+    font-size: 3.5em;
+    padding-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bottom{
+    margin-top: 25px;
+}
+.unit {
+    display: flex;
+    align-items: flex-start; /* Align items to the start (top) */
+    margin-left: 25px;
+}
+
+.images {
+    margin-top: 20px;
+    width: 125px;
+    height: 175px;
+    margin-right: 10px; /* Adjust margin to create space between images */
+}
+.image-info {
+    margin-top: 0;
+    padding-left: 10px;
+    justify-content: flex-start;
+    align-items: left;
+    text-align: left;
+}
+.image-info p{
+    font-size: 1.5em;
+}
+.image-info h2{
+    font-weight:bold;
+    font-size: 2.5em;
+    color:rgba(136, 139, 141, 0.517) ;
+}
+.image-info h3{
+    font-weight:bold;
+    font-size: 2.5em;
+}
+.image-info h3:hover{
+     cursor: pointer;  
+     color: coral; 
+}
+
