@@ -6,11 +6,10 @@
     <title>WMO</title>
     <link rel="stylesheet" type="text/css" href="csssheet/stylesheet.css">
     <style>
-        /* Your existing styles here */
 
         @media screen and (max-width: 1200px) {
             .container {
-                margin: 50px 20px; /* Adjust margin for smaller screens */
+                margin: 50px 20px;
             }
 
             .main-bar {
@@ -25,6 +24,17 @@
 
             .side-bar {
                 margin-left: 0;
+            }
+            .unit{
+                flex-direction: column;
+            }
+            .images{
+                align-content: center;
+                margin-right: 0;
+            }
+            .image-info{
+                padding-left: 0;
+
             }
         }
 
@@ -51,6 +61,17 @@
             .image-info p {
                 text-align: center;
             }
+            .unit{
+                flex-direction: column;
+            }
+            .images{
+                align-content: center;
+                margin-right: 0;
+            }
+            .image-info{
+                padding-left: 0;
+            }            
+            
         }
     </style>
 </head>
@@ -106,8 +127,6 @@
                 </div>
             </div>
         </div>    
-
-        <!-- "bottom" section is inside the "container" but outside the "bar" -->
         <div class="bottom">
             <div class="unit">
                 <img class="images" src="3.jpg" alt="Main Image">

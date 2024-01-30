@@ -18,14 +18,14 @@ a:active {
 .block {
     font-family: sans-serif;
     display: inline;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .block li {
     list-style: none;
     display: inline;
-    padding: 10px;
-    margin: 20px;
+    padding: 5px;
+    margin: 10px;
 }
 
 .block a {
@@ -46,7 +46,7 @@ a:active {
     float: left;
     display: inline;
     width: 45%;
-    font-size: 2em;
+    font-size: 1.2em;
 }
 .article h1{
     float:left;
@@ -72,20 +72,20 @@ a:active {
 }
 .side-bar {
     box-sizing: border-box;
-    flex: 1; /* Take remaining space in the flex container */
+    flex: 1; 
     background-color: rgb(14, 14, 46);
     justify-content: space-evenly;
     height: auto;
-    margin-left: 50px;
-    padding-left: 5px;
+    margin-left: 30px;
+    padding-left: 3px;
     display: flex;
     flex-direction: column;
 }
 
 .topics {
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 1.8em;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1em;
     font-weight: bold;
     color: white;
     border-bottom-style: solid ;
@@ -111,7 +111,7 @@ a:active {
 
 .side-bar h1 {
     color: rgb(237, 175, 31);
-    font-size: 3.5em;
+    font-size: 2em;
     padding-left: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -120,7 +120,7 @@ a:active {
 }
 .unit {
     display: flex;
-    align-items: flex-start; /* Align items to the start (top) */
+    align-items: flex-start;
     margin-left: 25px;
 }
 
@@ -128,8 +128,7 @@ a:active {
     margin-top: 20px;
     width: 125px;
     height: 175px;
-    margin-right: 10px; /* Adjust margin to create space between images */
-}
+    margin-right: 10px; 
 .image-info {
     margin-top: 0;
     padding-left: 10px;
@@ -138,16 +137,16 @@ a:active {
     text-align: left;
 }
 .image-info p{
-    font-size: 1.5em;
+    font-size: 1em;
 }
 .image-info h2{
     font-weight:bold;
-    font-size: 2.5em;
+    font-size: 1.5em;
     color:rgba(136, 139, 141, 0.517) ;
 }
 .image-info h3{
     font-weight:bold;
-    font-size: 2.5em;
+    font-size: 1em;
 }
 .image-info h3:hover{
      cursor: pointer;  
