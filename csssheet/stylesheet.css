@@ -129,7 +129,8 @@ a:active {
     width: 125px;
     height: 175px;
     margin-right: 10px; 
-.image-info {
+}
+.image-info{
     margin-top: 0;
     padding-left: 10px;
     justify-content: flex-start;
